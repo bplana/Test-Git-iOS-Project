@@ -21,6 +21,7 @@
 		4F862A9F1A9D3D9000A874E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F862A811A9D3D9000A874E0 /* UIKit.framework */; };
 		4F862AA71A9D3D9000A874E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F862AA51A9D3D9000A874E0 /* InfoPlist.strings */; };
 		4F862AA91A9D3D9000A874E0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F862AA81A9D3D9000A874E0 /* Git_TestTests.m */; };
+		4F862AB41A9D59EF00A874E0 /* BPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F862AB31A9D59EF00A874E0 /* BPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4F862AA41A9D3D9000A874E0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4F862AA61A9D3D9000A874E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F862AA81A9D3D9000A874E0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4F862AB21A9D59EF00A874E0 /* BPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTest.h; sourceTree = "<group>"; };
+		4F862AB31A9D59EF00A874E0 /* BPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4F862A8F1A9D3D9000A874E0 /* Main.storyboard */,
 				4F862A921A9D3D9000A874E0 /* BPViewController.h */,
 				4F862A931A9D3D9000A874E0 /* BPViewController.m */,
+				4F862AB21A9D59EF00A874E0 /* BPTest.h */,
+				4F862AB31A9D59EF00A874E0 /* BPTest.m */,
 				4F862A951A9D3D9000A874E0 /* Images.xcassets */,
 				4F862A841A9D3D9000A874E0 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F862A941A9D3D9000A874E0 /* BPViewController.m in Sources */,
+				4F862AB41A9D59EF00A874E0 /* BPTest.m in Sources */,
 				4F862A8E1A9D3D9000A874E0 /* BPAppDelegate.m in Sources */,
 				4F862A8A1A9D3D9000A874E0 /* main.m in Sources */,
 			);
